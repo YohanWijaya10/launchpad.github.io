@@ -1,0 +1,158 @@
+html {
+  font-size: 10px;
+  background-size: cover;
+  
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-color: #67C4E5;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  margin-left:15% ;
+  margin-right:15% ;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c2223;
+  margin-top: 20%;
+  border-radius:1% ;
+  
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  animation: rainbow-bg 5s linear;
+	animation-iteration-count: infinite;
+}
+.merk{
+  color: rgb(122, 122, 122);
+  margin-left: 2%;
+  margin-right: 1%;
+  font-weight: bold;
+  font-size: 3vmin;
+}
+
+#a1{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 0.1s;
+  
+
+}
+#a2{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 0.2s;
+}
+#a3{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 0.4s;
+}
+#a4{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 0.6s;
+}
+#a5{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 0.8s;
+}
+#a6{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+#a7{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 1.2s;
+}
+#a8{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 1.4s;
+}
+#a9{
+  animation: rainbow-bg 6s linear;
+	animation-iteration-count: infinite;
+  animation-delay: 1.6s;
+}
+
+.playing {
+  background-color: white;
+  background-size: 200%;
+  transform: scale(0.98);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+
+}
+ @keyframes rainbow-bg{
+		100%,0%{
+			background-color: rgb(255,0,0);
+		}
+		8%{
+			background-color: rgb(255,127,0);
+		}
+		16%{
+			background-color: rgb(255,255,0);
+		}
+		25%{
+			background-color: rgb(127,255,0);
+		}
+		33%{
+			background-color: rgb(0,255,0);
+		}
+		41%{
+			background-color: rgb(0,255,127);
+		}
+		50%{
+			background-color: rgb(0,255,255);
+		}
+		58%{
+			background-color: rgb(0,127,255);
+		}
+		66%{
+			background-color: rgb(0,0,255);
+		}
+		75%{
+			background-color: rgb(127,0,255);
+		}
+		83%{
+			background-color: rgb(255,0,255);
+		}
+		91%{
+			background-color: rgb(255,0,127);
+		}
+}
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
